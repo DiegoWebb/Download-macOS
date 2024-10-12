@@ -34,7 +34,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'https://github.com/DiegoWebb/Download-macOS'
+    if: github.repository == 'https://github.com/DiegoWebb/Download-macOS/tree/main'
     steps:
       - uses: actions/checkout@v4
       
